@@ -1,0 +1,28 @@
+{
+  "name": "full-stack-test-app",
+  "version": "1.0.0",
+  "description": "Default React Assembly",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build --parallel",
+    "start": "lerna run start --parallel",
+    "format": "lerna run format",
+    "lint": "lerna run lint",
+    "postinstall": "lerna bootstrap",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasha-z25/fullStackTestApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasha-z25/fullStackTestApp/issues"
+  },
+  "homepage": "https://github.com/pasha-z25/fullStackTestApp#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
